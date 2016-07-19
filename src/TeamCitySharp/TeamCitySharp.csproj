@@ -63,13 +63,17 @@
     <Compile Include="ActionTypes\IBuildConfigs.cs" />
     <Compile Include="ActionTypes\IBuilds.cs" />
     <Compile Include="ActionTypes\IChanges.cs" />
+    <Compile Include="ActionTypes\IProblems.cs" />
     <Compile Include="ActionTypes\IProjects.cs" />
     <Compile Include="ActionTypes\IServerInformation.cs" />
     <Compile Include="ActionTypes\IUsers.cs" />
     <Compile Include="ActionTypes\IVcsRoots.cs" />
+    <Compile Include="ActionTypes\Problems.cs" />
     <Compile Include="ActionTypes\Projects.cs" />
     <Compile Include="ActionTypes\ServerInformation.cs" />
     <Compile Include="Connection\ITeamCityCaller.cs" />
+    <Compile Include="DomainEntities\ProblemOccurrence.cs" />
+    <Compile Include="DomainEntities\ProblemOccurrenceWrapper.cs" />
     <Compile Include="TeamCityClient.cs" />
     <Compile Include="ActionTypes\Users.cs" />
     <Compile Include="ActionTypes\VcsRoots.cs" />
